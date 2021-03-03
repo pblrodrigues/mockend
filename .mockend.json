@@ -1,0 +1,14 @@
+{
+    "Aluno": {
+      "nome": "string",
+      "codigo": "string",
+      "semestre": "string",
+      "turma": "string",
+      "Atividades": "Atividades[]"
+    },
+    "Atividades": {
+      "nome": "string",
+      "nota-final": "string",
+      "Aluno": "Aluno"
+    }
+  }
